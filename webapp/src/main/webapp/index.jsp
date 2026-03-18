@@ -14,8 +14,8 @@
 <body>
 <paw:title text="Bienvenido a la Galeria de Arte" cssClass="title-primary"/>
 <div style="display: flex; flex-direction: row; align-items: center; gap: 20px; padding: 20px;">
-    <paw:button text="Primary" cssClass="btn-color1"/>
-    <paw:button text="Hola" cssClass="btn-color2"/>
+    <paw:button text="Boton 1" cssClass="btn-color1"/>
+    <paw:button text="Boton 2" cssClass="btn-color2"/>
 </div>
 <div style="display: flex; flex-direction: row; align-items: center; gap: 20px; padding: 20px;">
 
