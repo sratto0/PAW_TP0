@@ -1,0 +1,23 @@
+.card{
+    margin: 10px;
+    width: 18rem;
+    border: 1px solid #000;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: blueviolet;
+}
+
+.card-body{
+    padding: 15px;
+}
+
+.card-title{
+    margin-bottom: 5px;
+}
+
+.card-footer{
+    padding: 10px;
+    background: #f8f9fa;
+    border-top: 1px solid #ccc;
+    background-color: darkmagenta;
+}
