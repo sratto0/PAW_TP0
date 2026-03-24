@@ -4,7 +4,13 @@
     border: 1px solid #000;
     border-radius: 8px;
     overflow: hidden;
-    background-color: blueviolet;
+    background-color: lightpink;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    cursor: pointer;
 }
 
 .card-body{
@@ -19,5 +25,5 @@
     padding: 10px;
     background: #f8f9fa;
     border-top: 1px solid #ccc;
-    background-color: darkmagenta;
+    background-color: palevioletred;
 }

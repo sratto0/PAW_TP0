@@ -1,7 +1,12 @@
 <%@ tag language="java" pageEncoding="UTF-8" %>
+<%@ taglib prefix="paw" tagdir="/WEB-INF/tags" %>
 <%@ attribute name="title" required="true" %>
-<%@ attribute name="text" required="true" %>
+<%@ attribute name="text" required="false" %>
+<%@ attribute name="price" required="true" %>
 <%@ attribute name="footer" required="true" %>
+<%@ attribute name="day" required="true" %>
+<%@attribute name="month" required="true" %>
+<%@attribute name="year" required="true" %>
 <%@ attribute name="size" required="false" %>
 <%@ attribute name="cssClass" required="false" %>
 <%@ attribute name="disabled" required="false" type="java.lang.Boolean" %>
@@ -21,8 +26,8 @@
             <c:out value="${title}" />
         </h2>
         <div class="card-text">
-            <jsp: doBody />
-            <c:out value="${text}" />
+            <c:out value="${price}" />
+            <paw:date day="${day}" month="${month}" year="${year}" />
         </div>
     </div>
     <div class="card-footer">

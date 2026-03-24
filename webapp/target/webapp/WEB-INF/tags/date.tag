@@ -9,8 +9,7 @@
 
 <c:choose>
 
-    <c:when test="${day >= 1 && day <= 31 && month >= 1 && month <= 12 && year > 0}">
-
+    <c:when test="${day >= 1 && day <= 31 && month >= 1 && month <= 12 && year > 0 && !(month==2 && day > 29) }">
         <div class="<c:out value="${classes}" />">
             <c:if test="${day < 10}">0</c:if><c:out value="${day}" />/
             <c:if test="${month < 10}">0</c:if><c:out value="${month}" />/
